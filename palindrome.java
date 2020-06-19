@@ -5,9 +5,9 @@ public class palindrome{
     int sum=0;
 
     int checkPal(int n){
-        if(n<=0){
+        if(n<=0){               //Base condition
             return sum;
-        }else{
+        }else{                   //general condition
             sum=(sum*10) + n%10;
             return checkPal(n/10);
         }
