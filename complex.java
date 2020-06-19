@@ -34,7 +34,6 @@ class complexNum{
 
 public class complex{
     public static void main(String[] args){
-        System.out.println("Enter");
         complexNum c=new complexNum();
         c.getNumebr();
         c.sum();
